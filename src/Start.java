@@ -5,6 +5,7 @@ public class Start {
 		// TODO Auto-generated method stub
 		Shape.TestShape();
 		Circle.TestCircle();
+		Dot.TestDot();
 	}
 
 }

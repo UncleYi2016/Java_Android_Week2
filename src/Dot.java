@@ -9,8 +9,8 @@ public class Dot extends Shape{
 	public double area(){
 		return 0;
 	}
-	public void resize(double newSize){
-		
+	public void resize(double newSize) throws Exception{
+		throw new Exception("Cannot change an dot's size");
 	}
 	
 	public static void TestDot(){

@@ -21,8 +21,8 @@ public class Shape {
 	public double area(){
 		return 0;
 	}
-	public void resize(double newSize){
-		
+	public void resize(double newSize) throws Exception{
+		throw new Exception("Unknowned shape!");
 	}
 	
 	public static void TestShape(){
